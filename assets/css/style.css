@@ -1,0 +1,36 @@
+body{
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+footer i {
+  fill: #ffffff;
+}
+
+nav i {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h1 h2 h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.object-fit {
+  widht: 100%;/*ancho del 100% del contenedor*/
+  height: 169px;altura de la imagen*/
+  object-fit: cover;
+}
