@@ -1,5 +1,8 @@
-$(function)() {
 
+  //se ha cargado en DOM//
+$(function () {
+
+    //smoth scroll//
     $ ("a").click(function(event){
       if (this.hash !== "") {
         event.preventDefault();
@@ -13,4 +16,9 @@ $(function)() {
         });
       }
     });
+
+    //tooltip en Destacados, navbar//
+    $('[data-toggle="tooltip"]').tooltip();
+    });
+
 });
