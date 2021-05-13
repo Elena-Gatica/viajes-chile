@@ -9,28 +9,39 @@ footer i {
 }
 
 nav i {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
 }
 
 h1 h2 h3 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 400;
 }
 
 
 h5 {
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
 .object-fit {
   widht: 100%;/*ancho del 100% del contenedor*/
-  height: 169px;altura de la imagen*/
+  height: 10.563rem;altura de la imagen*/
   object-fit: cover;
+}
+
+/*Condiciones en screen xs*/
+@media screen and (max-width:575px) {
+  h3 {
+    font-size: 0.938rem;
+  }
+
+.fa-2x {
+    font-size: 1.5rem;
+  }
 }

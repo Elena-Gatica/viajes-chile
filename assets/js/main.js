@@ -1,5 +1,7 @@
+//Se carga el DOM//
 $(function() {
 
+  //Smoth Scroll//
   $ ("a").click(function(event){
     if (this.hash !== ""){
       event.preventDefault ();
@@ -14,6 +16,6 @@ $(function() {
     }
   });
 
-
+  //Tooltip en nav-bar link Destacados//
   $('[data-toggle="tooltip"]').tooltip();
   });
